@@ -1,0 +1,102 @@
+#mainheader {
+    height: 100vh;
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+
+  #mainheader {
+    text-align: center;
+  }
+
+  #bodyheader {
+    height: 100%;
+    padding-top: 0px;
+  }
+  
+  /* Navbar */
+  #navbar {
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  #navbar .container {
+    text-align: center;
+  }
+  
+  #navbar .logo {
+    float: none;
+    padding-bottom: 20px;
+  }
+  
+  #navbar ul {
+    float: none;
+  }
+  
+  #navbar ul li a {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Showcase */
+  #showcase {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  #showcase h1 {
+    padding-left: 0px;
+    padding-top: 40px;
+  }
+  
+  #showcase p {
+    padding-left: 0px;
+  }
+  
+  /* About */
+  #about {
+    height: 100%;
+  }
+  
+  #about .text-right,
+  #about .text-left {
+    float: none;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
+  /* Services */
+  #services {
+    height: 100%;
+  }
+  
+  #services h2 {
+    padding-bottom: 30px;
+  }
+  
+  .card {
+    float: none;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Contact */
+  #contact {
+    height: 100%;
+    padding-top: 50px;
+  }
+  
+  #contact h2 {
+    padding-bottom: 40px;
+  }
+  
+  #contact form {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  
+  /* Footer */
+  #footer {
+    padding: 20px;
+    height: 100%;
+  }
