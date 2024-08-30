@@ -163,6 +163,14 @@ p {
     padding: 50px 0 50px 0 ;
   }
 
+  #services .titulo {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+  }
+
   .card {
     float: left;
     width: 33%;

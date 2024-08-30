@@ -1,13 +1,14 @@
+
 async function getData(){
     const result = await fetch('https://rickandmortyapi.com/api/character');
     const data = await result.json();
+
     console.log(result)
     data.results.forEach(element => {
         if(element.id <= 3){
             const card = document.createRange().createContextualFragment(`
                 
                 <div class="card">
-                    
                     <img src="${element.image}" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consectetur repellat magni praesentium delectus maiores! Aperiam labore iste fugiat ipsum, nostrum natus quae veniam harum velit. Error officiis, vitae perferendis aliquam, ipsa soluta minus adipisci ex distinctio inventore accusamus quasi?</p>
                  </div>
