@@ -52,6 +52,13 @@ p {
   .display-1{
     text-transform: capitalize;
   }
+
+  ::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "f\007";
+    text-align: right;
+  }
   
   /* Utility Classes */
   .container {
@@ -188,6 +195,23 @@ p {
     border: 1px solid #F2F3F6;
     border-radius: 0.25rem;
   }
+
+  form label:has(:focus-visible:invalid) {
+    outline-color: rgb(255, 0, 0);
+  }
+
+  form:has(:focus-visible:valid) input{
+    outline-color: rgb(0, 13, 255);
+  }
+  
+  form:has(:focus-visible:valid) textarea{
+    outline-color: rgb(0, 13, 255);
+  }
+
+  form:has(:focus-visible:invalid) textarea{
+    outline-color: rgb(255, 0, 0);
+  }
+  
 
   #contact form {
     width: 40%;
